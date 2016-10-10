@@ -1,0 +1,23 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-sass": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://younes038@github.com/younes038/myproject.git"
+  },
+  "author": "Younes EL YANDOUZI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/younes038/myproject/issues"
+  },
+  "homepage": "https://github.com/younes038/myproject#readme"
+}
