@@ -7,7 +7,11 @@
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
