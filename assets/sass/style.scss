@@ -1,0 +1,38 @@
+/*	Imports	*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+@import "partials/_menu";
+@import "partials/_timeline";
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	font-family: 'Noto Sans';
+}
+
+body {
+	margin: 0;
+	background: #f3f3f3;
+}
+
+nav {
+	background: #13bef2;
+	box-shadow: 0 2px 15px 1px #bdbdbd;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	margin: 0 15px;
+}
+
+footer {
+	text-align: center;
+}
