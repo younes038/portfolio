@@ -1,18 +1,63 @@
 .timeline {
 	width: 100%;
 	position: relative;
+	padding: 0 6px;
 	overflow: auto;
 	transition: all 0.4s ease;
+	
+	.tl-item {
+		background: #fff;
+		box-shadow: #b9b0b0 2px 3px 9px 1px;
+		margin: 30px 0;
+		position: relative;
+	}
+	
+	.tl-title {
+		margin: 0;
+		padding: 15px;
+		background: #b1b1b1;
+		color: #fff;
+		font-weight: 300;
+		
+		h3, h4 {
+			margin: 0;
+			font-weight: 300;
+		}
+	}
+	
+	.tl-content {
+		padding: 10px 20px;
+		font-weight: bold;
+		
+		p {
+			margin: 0;
+		}
+	}
 }
 
-@media screen and (min-width: 470px) {
+@media screen and (min-width: 750px) {
 	.timeline:before {
 		content: '';
 		display: block;
 		position: absolute;
-		width: 4px;
-		height: 100%;
-		background: #a1abad;
 		left: 50%;
+		bottom: 0;
+		width: 4px;
+		height: calc(100% - 53px);
+		background: #a1abad;
+
+	}
+	.tl-item {
+		width: 42%;
+		
+		&:after {
+			content: '';
+			position: absolute;
+			left: 100%;
+			top: 15px;
+			border-top: 10px solid transparent;
+			border-bottom: 10px solid transparent;
+			border-left: 10px solid #b1b1b1;
+		}
 	}
 }

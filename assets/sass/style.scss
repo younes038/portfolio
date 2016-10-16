@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
 @import "partials/_menu";
+@import "partials/_cloud-background";
 @import "partials/_timeline";
 
 *, *:before, *:after {
@@ -12,11 +13,17 @@
 body {
 	margin: 0;
 	background: #f3f3f3;
+	color: #4c5858;
 }
 
 nav {
+	width: 100%;
 	background: #13bef2;
+	position: fixed;
+	top: 0;
+	height: 55px;
 	box-shadow: 0 2px 15px 1px #bdbdbd;
+	z-index: 1;
 }
 
 ul {
@@ -27,12 +34,35 @@ ul {
 
 a {
 	text-decoration: none;
+	color: #4c4444;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
 
 main {
-	margin: 0 15px;
+	padding: 15px;
+	
+	section {
+		margin: 30px 0;
+	}
+	.images {
+		margin: 0 -15px;
+		
+		img {
+			border: 1px solid lightgray;
+		}
+	}
 }
 
 footer {
 	text-align: center;
+	background: #76d9f1;
+	padding: 12px;
+	
+	p{
+		margin: 0;
+	}
 }
