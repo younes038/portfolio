@@ -9,7 +9,9 @@
   },
   "devDependencies": {
     "bower": "^1.7.9",
+    "browser-sync": "^2.18.1",
     "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2"
   },
   "scripts": {
