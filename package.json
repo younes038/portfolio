@@ -1,5 +1,5 @@
 {
-  "name": "myproject",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://younes038@github.com/younes038/myproject.git"
+    "url": "git+https://younes038@github.com/younes038/portfolio.git"
   },
   "author": "Younes EL YANDOUZI",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/younes038/myproject/issues"
+    "url": "https://github.com/younes038/portfolio/issues"
   },
-  "homepage": "https://github.com/younes038/myproject#readme"
+  "homepage": "https://github.com/younes038/portfolio#readme"
 }
