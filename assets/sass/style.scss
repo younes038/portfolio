@@ -16,16 +16,6 @@ body {
 	color: #4c5858;
 }
 
-nav {
-	width: 100%;
-	background: #13bef2;
-	position: fixed;
-	top: 0;
-	height: 55px;
-	box-shadow: 0 2px 15px 1px #bdbdbd;
-	z-index: 1;
-}
-
 ul {
 	margin: 0;
 	padding: 0;
@@ -59,10 +49,11 @@ main {
 
 footer {
 	text-align: center;
-	background: #76d9f1;
+	background: #343e3e;
+	color: white;
 	padding: 12px;
 	
-	p{
+	p {
 		margin: 0;
 	}
 }
