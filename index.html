@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Younes El Yandouzi - Portfolio</title>
 	<link type="text/css" rel="stylesheet" href="assets/css/style.min.css">
+	<link type="text/css" rel="stylesheet" href="assets/components/font-awesome/css/font-awesome.min.css">
 </head>
 <body id="home">
 	<header>
@@ -29,7 +30,14 @@
 		</div>
 	</header>
 	<main>
-		<section id="formation" class="timeline">
+		<section id="bio">
+			<h2>A propos de moi!</h2>
+			<p id="text-bio">Je m'appelle Younes, j'ai 21 ans et je suis étudiant  en 3ème année de Licence Pro Service Mobile et Interfaces Mobiles
+				à l'IUT1 de Grenoble (département Métier du Multimédia et de l'Internet). Je suis passionné par l'informatique et
+				j'aime découvrir et maîtriser de nouvelles technologies mais aussi concevoir des sites webs.
+			</p>
+		</section>
+		<!--<section id="formation" class="timeline">
 			<h2>Formation</h2>
 			<article class="tl-item">
 				<h3 class="tl-title">Licence Professionnelle SMIN</h3>
@@ -65,7 +73,7 @@
 					<p class="year">■ 2013 - 2010</p>
 				</div>
 			</article>
-		</section>
+		</section>-->
 		<div class="images">
 			<img src="assets/images/Mobile-first.jpg" alt="">
 		</div>
@@ -89,14 +97,38 @@
 				</div>
 			</article>
 		</section>
-		<section id="contact">
-			<h2>Contact</h2>
-			<p>Tél.: 06 65 69 05 08</p>
-			<p>Mél.: younesey@gmail.com</p>
-		</section>
+		
 	</main>
 	<footer>
-		<p>&copy; Copyright 2016 by Younes EL YANDOUZI</p>
+		<section id="contact">
+			<div id="contactDetails">
+				<h2>Coordonnées</h2>
+				<ul class="fa-ul">
+					<li><i class="fa-li fa fa-map-marker"></i>Grenoble (38)</li>
+					<li><i class="fa-li fa fa-mobile"></i>06 65 69 05 08</li>
+					<li><i class="fa-li fa fa-at"></i>younesey@gmail.com</li>
+				</ul>
+				<p>
+					<a href="https://github.com/younes038" target="_blank"><i class="fa fa-github fa-3x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://www.linkedin.com/in/younes-el-yandouzi" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
+				</p>
+			</div>
+
+			<div id="contactForm">
+				<h2>Contactez-moi !</h2>
+				<div id="message"></div>
+					Prêt à travailler avec moi? Faites moi part de votre projet!
+			
+				<form method="post" action="php/contact.php" name="cform" id="cform">
+					<input name="name" id="name" type="text" placeholder="Votre nom" autocomplete="off">
+					<input name="email" id="email" type="email" placeholder="Votre email" autocomplete="off">
+					<input name="objet" id="objet" type="text" placeholder="Le sujet" autocomplete="off">
+					<textarea name="comments" id="comments" cols="" rows="" placeholder="Le contenu de votre message"></textarea>
+					<input type="submit" id="submit" name="send" value="Envoyer">
+				</form>
+			</div>
+		</section>
+		<p id="copyright">&copy; Copyright 2016 by Younes EL YANDOUZI</p>
 	</footer>
 	<script type="text/javascript" src="assets/components/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/script.js"></script>
