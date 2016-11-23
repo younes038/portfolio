@@ -4,60 +4,65 @@
 @import "partials/_menu";
 @import "partials/_cloud-background";
 @import "partials/_timeline";
+@import "partials/_footer";
+
+@font-face {
+    font-family: FontAwesome;
+    src: url("../components/font-awesome/fonts/fontawesome-webfont.woff");
+}
 
 *, *:before, *:after {
 	box-sizing: border-box;
-	font-family: 'Noto Sans';
 }
 
 body {
 	margin: 0;
 	background: #f3f3f3;
 	color: #4c5858;
-}
+	font-family: 'Noto Sans';
 
-ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-a {
-	text-decoration: none;
-	color: #4c4444;
-}
-
-img {
-	max-width: 100%;
-	height: auto;
-}
-
-main {
-	padding: 15px;
-	
-	section {
-		margin: 30px 0;
-	}
-	.images {
-		margin: 0 -15px;
-		
-		img {
-			border: 1px solid lightgray;
-		}
-	}
-}
-
-footer {
-	text-align: center;
-	background: #343e3e;
-	color: white;
-	padding: 12px;
-	
-<<<<<<< HEAD
-	p.copyright {
-=======
-	p {
->>>>>>> menu
+	ul {
 		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	a {
+		text-decoration: none;
+		color: #4c4444;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	main {
+		padding: 15px;
+		
+		section {
+			margin: 30px 0;
+
+			h2 {
+				text-align: center;
+			}
+
+			#text-bio {
+				text-align: justify;
+				width: 94%;
+				margin: 0 auto;
+			}
+		}
+		.images {
+			margin: 0 -15px;
+			
+			img {
+				border: 1px solid lightgray;
+			}
+		}
 	}
 }
