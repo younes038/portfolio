@@ -1,0 +1,45 @@
+footer {
+	background: #343e3e;
+	color: white;
+	padding: 12px;
+
+	#contactDetails, #contactForm {
+		display: inline-block;
+
+		h2 {
+			text-align: center;
+		}
+	}
+
+	#contactDetails {
+		p {
+			text-align: center;
+			margin-top: 15px;
+
+			a {
+				color: #00c2ff;
+			}
+		}
+
+	}
+
+	#contactForm {
+		vertical-align: top;
+
+		input, textarea {
+			display: block;
+			width: 100%;
+			background-color: #6e7b7b;
+			margin-top: 10px;
+			border: none;
+			padding: 5px;
+			outline: none;
+		}
+	}
+	
+	p#copyright {
+		text-align: center;
+		margin-top: 25px;
+		font-weight: normal;
+	}
+}
