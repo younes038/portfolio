@@ -31,7 +31,7 @@
 	</header>
 	<main>
 		<section id="bio">
-			<h2>A propos de moi!</h2>
+			<h2 class="subtitle fancy"><i class="fa fa-user"></i>A propos de moi!</h2>
 			<p id="text-bio">Je m'appelle Younes, j'ai 21 ans et je suis étudiant  en 3ème année de Licence Pro Service Mobile et Interfaces Mobiles
 				à l'IUT1 de Grenoble (département Métier du Multimédia et de l'Internet). Je suis passionné par l'informatique et
 				j'aime découvrir et maîtriser de nouvelles technologies mais aussi concevoir des sites webs.
@@ -74,28 +74,32 @@
 				</div>
 			</article>
 		</section>-->
-		<div class="images">
+		<!--<div class="images">
 			<img src="assets/images/Mobile-first.jpg" alt="">
-		</div>
+		</div>-->
 		<section id="skills">
-			<h2>Compétences</h2>
+			<h2><i class="fa fa-code"></i>Compétences</h2>
 		</section>
-		<section id="experience"  class="timeline">
-			<h2>Expériences</h2>
-			<article class="tl-item">
-				<h3 class="tl-title">Stage développeur web</h3>
-				<div class="tl-content">
-					<p class="place">■ Cis-care</p>
-					<p class="year">■ Mai - Juin 2015</p>
-				</div>
-			</article>
-			<article class="tl-item">
-				<h3 class="tl-title">Stage refonte site web</h3>
-				<div class="tl-content">
-					<p class="place">■ Association Gardefa</p>
-					<p class="year">■ Janvier - Février 2016</p>
-				</div>
-			</article>
+		<section id="experience">
+			<h2><i class="fa fa-briefcase"></i>Expériences</h2>
+			<div class="timeline">
+				<article class="tl-item">
+					<!--<div class="tl-icon"><i class="fa fa-map-marker"></i></div>-->
+					<h3 class="tl-title">Stage développeur web</h3>
+					<div class="tl-content">
+						<p class="place">■ Cis-care</p>
+						<p class="year">■ Mai - Juin 2015</p>
+					</div>
+				</article>
+				<article class="tl-item">
+					<!--<div class="tl-icon"><i class="fa fa-map-marker"></i></div>-->
+					<h3 class="tl-title">Stage refonte site web</h3>
+					<div class="tl-content">
+						<p class="place">■ Association Gardefa</p>
+						<p class="year">■ Janvier - Février 2016</p>
+					</div>
+				</article>
+			</div>
 		</section>
 		
 	</main>
@@ -104,7 +108,7 @@
 			<div id="contactDetails">
 				<h2>Coordonnées</h2>
 				<ul class="fa-ul">
-					<li><i class="fa-li fa fa-map-marker"></i>Grenoble (38)</li>
+					<li><i class="fa-li fa fa-map-signs"></i>Grenoble (38)</li>
 					<li><i class="fa-li fa fa-mobile"></i>06 65 69 05 08</li>
 					<li><i class="fa-li fa fa-at"></i>younesey@gmail.com</li>
 				</ul>
@@ -116,9 +120,7 @@
 
 			<div id="contactForm">
 				<h2>Contactez-moi !</h2>
-				<div id="message"></div>
-					Prêt à travailler avec moi? Faites moi part de votre projet!
-			
+				<div>Prêt à travailler avec moi? Faites moi part de votre projet!</div>
 				<form method="post" action="php/contact.php" name="cform" id="cform">
 					<input name="name" id="name" type="text" placeholder="Votre nom" autocomplete="off">
 					<input name="email" id="email" type="email" placeholder="Votre email" autocomplete="off">
