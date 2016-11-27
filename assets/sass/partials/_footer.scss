@@ -9,11 +9,16 @@ footer {
 			flex-direction: row;
 			justify-content: center;
 			align-items: center;
+			margin: 25px 0 80px 0;
 		}
 
 		#contactDetails, #contactForm {
 			h2 {
 				text-align: center;
+
+				i {
+					padding-right: 15px;
+				}
 			}
 		}
 
