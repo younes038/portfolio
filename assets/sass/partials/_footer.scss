@@ -3,37 +3,83 @@ footer {
 	color: white;
 	padding: 12px;
 
-	#contactDetails, #contactForm {
-		display: inline-block;
-
-		h2 {
-			text-align: center;
+	section {
+		@media screen and (min-width: 890px) {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
 		}
-	}
 
-	#contactDetails {
-		p {
-			text-align: center;
-			margin-top: 15px;
-
-			a {
-				color: #00c2ff;
+		#contactDetails, #contactForm {
+			h2 {
+				text-align: center;
 			}
 		}
 
-	}
+		#contactDetails {
+			display: inline-block;
+			
+			p {
+				text-align: center;
+				margin-top: 15px;
 
-	#contactForm {
-		vertical-align: top;
+				a {
+					color: #00c2ff;
+				}
+			}
+		}
 
-		input, textarea {
-			display: block;
-			width: 100%;
-			background-color: #6e7b7b;
-			margin-top: 10px;
-			border: none;
-			padding: 5px;
-			outline: none;
+		#contactForm {
+			vertical-align: top;
+			margin-top: 50px;
+
+			div {
+				text-align: center;
+			}
+
+			form {
+				margin-top: 20px;
+
+				input:not(:last-child), textarea {
+					width: 100%;
+					background-color: transparent; //#6e7b7b;
+					color: #999;
+					border: none;
+					border-top: 1px solid grey;
+					padding: 15px 5px;
+					outline: none;
+				}
+
+				input:nth-child(-n+2) {
+					width: 49%;
+				}
+
+				input:nth-child(2) {
+					float: right;
+				}
+
+				textarea {
+					height: 155px;
+					resize: none;
+				}
+
+				input[type=submit] {
+					background: #00c2ff;
+					font-weight: bold;
+					padding: 12px 5px;
+					font-size: 18px;
+					color: #343e3e;
+					border: none;
+					width: 100%;
+					cursor: pointer;
+				}
+			}
+
+			@media screen and (min-width: 880px) {
+				margin-left: 50px;
+				margin-top: 0;
+			}
 		}
 	}
 	
