@@ -1,57 +1,105 @@
-# [Portofolio]
+# **Portfolio**
 
-This repository contains my website portfolio project.
+This repository contains my portfolio website project.
 
-## Table of contents
-
-- [Required](#required)
-- [Quick start](#quick-start)
-- [What's included](#what-s-included)
-- [Creator](#creator)
-
-## Required
-
-In order to run the website we'll need packages:
-
-- Gulp
-- Gulp-Sass
-- Bower
-
-and libraries:
-
-- jQuery
+----------
 
 
-## Quick start
+### **Table of contents**
 
-Some quick steps to follow to set up:
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [What's Included](#whats-included)
+- [Development Workflow](#development-workflow)
+- [Author](#author)
 
-- Clone the repo: `git clone https://github.com/younes038/myproject.git`
-- Install with [Meteor](https://www.meteor.com): `meteor add twbs:bootstrap@=4.0.0-alpha.4`
-- Install with [Composer](https://getcomposer.org): `composer require twbs/bootstrap`
-- Install with [Bower](https://bower.io): `bower install bootstrap#v4.0.0-alpha.4`
 
-### What's included
+----------
 
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+### **Prerequisites**
+
+Node.JS [Click here to download and install it!](https://nodejs.org/en/)
+
+----------
+
+### **Getting Started**
+
+Some quick steps to follow to get started:
+
+```bash
+# Clone the repo:
+git clone https://github.com/younes038/portfolio.git [folderName]
+
+# Change directory:
+cd [folderName]
+
+# Install NPM dependencies:
+npm install
+
+# Install Bower dependencies:
+bower install
+```
+
+----------
+
+### **What's Included**
+
+Within the cloned repo you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
 ```
-myproject/
+portfolio/
 ├──	assets/
 │	├── components/
-│	│    └── jquery.min.js
+│	│    ├── font-awesome
+│	│    ├── jquery
+│	│    ├── jquery.easy-pie-chart
+│	│    └── requirejs
 │	├── css/
-│	│    └── styles.css
+│	│    ├── style.css
+│	│    └── style.min.css
 │	├── js/
 │	│    └── script.js
 │	└── sass/
 │		 ├── partials/
+│		 │    ├── _charts.scss
+│		 │    ├── _cloud-background.scss
+│		 │    ├── _footer.scss
 │		 │    ├── _menu.scss
 │		 │    └── _timeline.scss
 │		 └── styles.scss
-└── index.html
+├──	node_modules/
+│	 └── etc...
+├──	index.html
+└──	etc...
 ```
 
-## Creator
+----------
+
+### **Development Workflow**
+
+packages required:
+
+- Gulp
+- Gulp-Sass
+- Gulp-rename
+- Bower
+- BrowserSync
+
+libraries and font:
+
+- jQuery
+- jQuery.easy-pie-chart
+- Font-Awesome
+
+>Run the default gulp task:
+
+>```bash
+gulp
+```
+>This will compile and minify the SASS files through 'assets/css/style.min.css' on save and launch BrowserSync to see the changes through the browser.
+
+----------
+
+### **Author**
 
 **Younes El Yandouzi**
