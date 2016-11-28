@@ -75,11 +75,35 @@
 				</div>
 			</article>
 		</section>-->
-		<!--<div class="images">
-			<img src="assets/images/Mobile-first.jpg" alt="">
-		</div>-->
 		<section id="skills">
 			<h2><i class="fa fa-code"></i>Compétences</h2>
+			<div class="wrap">
+				<div class="skill-content">
+					<div id="webChart" class="chart" data-percent="73"><span>WEB</span></div>
+					<ul class="wrap">
+						<li>HTML5/CSS3</li>
+						<li>JavaScript/jQuery</li>
+						<li>PHP</li>
+					</ul>
+				</div>
+				<div class="skill-content">
+					<div id="logicielChart" class="chart" data-percent="73"><span>LOGICIEL</span></div>
+					<ul class="wrap">
+						<li>C#</li>
+						<li>Java</li>
+						<li>vb.net</li>
+					</ul>
+				</div>
+				<div class="skill-content">
+					<div id="outilsChart" class="chart" data-percent="73"><span>OUTILS</span></div>
+					<ul class="wrap">
+						<li>VS Code</li>
+						<li>Eclipse</li>
+						<li>Git/GitHub</li>
+						<li>Node.js</li>
+					</ul>
+				</div>
+			</div>
 		</section>
 		<section id="experience">
 			<h2><i class="fa fa-briefcase"></i>Expériences</h2>
@@ -102,7 +126,6 @@
 				</article>
 			</div>
 		</section>
-		
 	</main>
 	<footer>
 		<section id="contact">
@@ -126,7 +149,7 @@
 					<input name="name" id="name" type="text" placeholder="Votre nom" autocomplete="off">
 					<input name="email" id="email" type="email" placeholder="Votre email" autocomplete="off">
 					<input name="objet" id="objet" type="text" placeholder="Le sujet" autocomplete="off">
-					<textarea name="comments" id="comments" cols="" rows="" placeholder="Le contenu de votre message"></textarea>
+					<textarea name="message" cols="1" rows="1" placeholder="Le contenu de votre message"></textarea>
 					<input type="submit" id="submit" name="send" value="Envoyer">
 				</form>
 			</div>
@@ -134,6 +157,7 @@
 		<p id="copyright">&copy; Copyright 2016 by Younes EL YANDOUZI</p>
 	</footer>
 	<script type="text/javascript" src="assets/components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
 	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>

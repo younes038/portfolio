@@ -1,0 +1,41 @@
+.skill-content {
+	padding: 22px 40px;
+    background-color: #f3f3f3;
+    border-radius: 6px;
+	align-self: flex-start;
+	width: 280px;
+	margin: 0 auto;
+
+	&:not(:last-child) {
+		// margin-right: 25px;
+		margin-bottom: 40px;
+	}
+	
+	ul {
+		flex-direction: column !important;
+		margin-top: 35px;
+	}
+
+	.chart {
+		position: relative;
+		width: 200px;
+		height: 200px;
+		text-align: center;
+
+		span {
+			position: relative;
+			line-height: 200px;
+			font-weight: bold;
+		}
+
+		canvas {
+		position: absolute;
+		top: 0;
+		left: 0;
+		}
+	}
+	
+	@media screen and (min-width: 890px) {
+		margin-bottom: 0;
+	}
+}

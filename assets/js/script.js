@@ -37,4 +37,36 @@
 			nav.removeClass('sticky');
 		}
 	});
+
+	//create instance
+    $('#webChart').easyPieChart({
+        animate: 2000,
+		scaleColor: false,
+		lineWidth: 12,
+		size: 200,
+		lineCap: 'square',
+		trackColor: '#e5e5e5',
+		barColor: '#13bef2' 
+    });
+		//create instance
+    $('#logicielChart').easyPieChart({
+        animate: 2000,
+		scaleColor: false,
+		lineWidth: 12,
+		size: 200,
+		lineCap: 'square',
+		trackColor: '#e5e5e5',
+		barColor: 'yellow' 
+    });
+		//create instance
+    $('#outilsChart').easyPieChart({
+        animate: 2000,
+		scaleColor: false,
+		lineWidth: 12,
+		size: 200,
+		lineCap: 'square',
+		trackColor: '#e5e5e5',
+		barColor: 'lime' 
+    });
+	
 }());
